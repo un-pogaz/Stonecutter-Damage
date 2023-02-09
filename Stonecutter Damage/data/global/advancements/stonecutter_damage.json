@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stonecutter"
+    },
+    "title": "Stonecutter Damage",
+    "description": [{"text": "Stonecutter inflicts damage to creature walks on it", "color": "aqua"}],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:un_pogaz",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
