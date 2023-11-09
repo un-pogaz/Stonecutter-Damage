@@ -4,4 +4,4 @@
 
 schedule function stonecutter_damage:second 1s
 
-execute as @e at @s if block ~ ~-0.05 ~ minecraft:stonecutter run damage @s 1 stonecutter_damage:stonecutter at ~ ~-0.05 ~
+execute as @e[type=!#stonecutter_damage:blacklist] at @s if block ~ ~-0.05 ~ minecraft:stonecutter run damage @s 1 stonecutter_damage:stonecutter at ~ ~-0.05 ~
