@@ -1,7 +1,15 @@
 {
-	"pack": {
-		"pack_format": 12,
-		"supported_formats": [12,26],
-		"description": [{"text": "Stonecutter inflicts damage to creature walks on it", "color": "aqua"}]
-	}
+  "pack": {
+    "pack_format": 12,
+    "supported_formats": [12, 41],
+    "description": [{"text": "Stonecutter inflicts damage to creature walks on it", "color": "aqua"}]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": {"min_inclusive": 33, "max_inclusive": 41},
+        "directory": "overlay_33"
+      }
+    ]
+  }
 }
