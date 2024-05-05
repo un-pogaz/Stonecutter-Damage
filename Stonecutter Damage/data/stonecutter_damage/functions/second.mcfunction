@@ -1,6 +1,6 @@
 # Desc: All commands here run every second
 #
-# Called by: main:load
+# Called by: minecraft:load
 
 schedule function stonecutter_damage:second 1s
 
