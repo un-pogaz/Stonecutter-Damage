@@ -3,5 +3,10 @@
     "pack_format": 45,
     "supported_formats": [45, 48],
     "description": [{"text": "Stonecutter inflicts damage to creature walks on it", "color": "aqua"}]
+  },
+  "overlays": {
+    "entries": [
+      {"formats": [16, 63], "directory": "overlay_16-63"}
+    ]
   }
 }
